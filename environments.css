@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400, 500, 700');
+
+html, body {
+	height:100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color:#222;
+}
+
+.navbar {
+	padding: 2rem;
+}
+.navbar-brand {
+	letter-spacing: 0.5em;
+	font-size: 23px;
+}
+.navbar-nav li {
+	padding-right: 20px;
+
+}
+.navbar-nav ml-auto {
+	font-color: blue;
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+
+}
+
+.row col-lg-6 {
+	width: 25px;
+
+
+}
+.carousel-inner img {
+	padding-right: 40px;
+	padding-left: 40px;
+	height: 1100px;
+	width: 100%;
+
+
+}
+.carousel-caption {
+	position: absolute;
+	top: 55%;
+	color: black;
+	
+}
+
+.carousel-caption h1{
+	font-size: 100%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 30px #000;
+
+}
+.carousel-caption h3 {
+
+	font-size: 400%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px white;
+	padding-bottom: 1rem;
+}
+.btn-primary {
+	background-color: #6648b1;
+	border: 1px solid #000;
+
+}
+.btn-primary: hover {
+	background-color: #6648b1;
+	border: 1px solid #000;
+}
+
+.jumbotron {
+	padding: 3rem;
+}
+
+.padding {
+	padding-top: 2rem;
+	padding-bottom : 2rem;
+}
+
+.welcome {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2.5rem;
+
+}
+
+
+
+
+
+@media (max-width: 992px) {
+
+}
+@media(max-width: 768px) {
+
+}
+@media(max-width: 576px) {
+
+}
+
+.carousel-item {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+}
+
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	margin: 0!important;
+}
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#fixed {
+	background-image: url("https://static.wixstatic.com/media/ba3697_56c842fc8a4143ffb69d25e1ce798ed0~mv2_d_4000_2668_s_4_2.jpg/v1/fill/w_560,h_322,al_c,q_90/20180830%20%EB%B8%8C%EB%A3%A8%EB%B9%84%26%EA%B7%B8%EB%9D%BC%EC%9D%B8%EB%8D%94%20%EC%B4%AC%EC%98%81%EC%82%AC%EC%A7%84%20%ED%94%84%EB%A6%AC%EB%B7%B0(28).webp");
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+			transform: translateZ(0);
+	will-change: transform;
+}
+
+[class *="col-"] {
+	padding: 1rem;
+}
